@@ -7,7 +7,7 @@ let customerOrderThree = "soup"
 
 let serverResponseToTableOne = "Let me make sure I've got this right: fish, risotto, and soup. Is that everything?"
 
-let tableOneResponse = "Yes, thank you!"
+let tableOneResponse = "Yes, thank you1!"
 
 /*:
 ### Later that day:
