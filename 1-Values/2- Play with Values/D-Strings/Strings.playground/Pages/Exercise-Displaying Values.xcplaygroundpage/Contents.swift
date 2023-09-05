@@ -15,5 +15,20 @@
  
  _Hint:_ Do all of your calculations in megabytes.
  */
+func howManyMinutesOfVideo(phoneStorageGB: Int, usedStorageGB: Int, videoSizeMB: Int) -> Int {
+  // Convert the storage capacity from GB to MB.
+  let totalStorageMB = phoneStorageGB * 1000
+  let availableStorageMB = totalStorageMB - usedStorageGB * 1000
+  let minutesOfVideo = availableStorageMB / videoSizeMB
+  return minutesOfVideo
+}
+
+let phoneStorageGB = 8
+let usedStorageGB = 3
+let videoSizeMB = 150
+
+let minutesOfVideo = howManyMinutesOfVideo(phoneStorageGB: phoneStorageGB, usedStorageGB: usedStorageGB, videoSizeMB: videoSizeMB)
+
+print("It will take", (minutesOfVideo), "minutes to fill the remaining storage")
 
 //: [Previous](@previous)  |  page 17 of 18  |  [Next: What Can You Print?](@next)

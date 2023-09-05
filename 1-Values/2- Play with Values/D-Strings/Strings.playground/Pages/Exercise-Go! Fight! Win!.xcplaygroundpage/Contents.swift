@@ -15,13 +15,17 @@
  - Note: 
  Use the show result button to view the results of your work.
  */
-let schoolName = "YOUR SCHOOL NAME"
-let refrain = "hmm hmm HMMM hm-hmm \(schoolName) hmm hmm HMMMMM"
+//1- Edit the song to have more than a repeated refrain.
+//2- Edit the refrain to have actual words.
+//3- Edit the refrain to use the schoolName at least twice.
+//4- Test your work by changing the school name to a fictional school.
+//
+//Use string interpolation in case you decide to sell your brilliant song to another school.
 
-let song = "\(refrain)\n\(refrain)\nYes, \(refrain)"
-
-
-
+let schoolName = "MDC Sharks"
+let refrain1 = "Swim at your own risk \(schoolName) are at sight, TUN TUN TUN TUN"
+let refrain2 = "The sharks are here, swim at your own risk!!"
+let song = "\(refrain1)\n\(refrain2)\nYes, \(schoolName) are here"
 /*:
 [Previous](@previous)  |  page 16 of 18  |  [Next: Exercise: Displaying Values](@next)
  */

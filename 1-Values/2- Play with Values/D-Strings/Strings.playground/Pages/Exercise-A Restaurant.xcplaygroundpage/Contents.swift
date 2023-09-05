@@ -7,7 +7,7 @@ let customerOrderThree = "soup"
 
 let serverResponseToTableOne = "Let me make sure I've got this right: fish, risotto, and soup. Is that everything?"
 
-let tableOneResponse = "Yes, thank you1!"
+let tableOneResponse = "Yes, thank you!"
 
 /*:
 ### Later that day:
@@ -26,7 +26,7 @@ let customerOrderSix = "小笼包"
  - callout(Exercise): 
  Make sure the server repeats the order correctly *without* copying and pasting or retyping any of the orders.
  */
-let serverResponseToTableTwo = "Let me make sure I've got this right: <Enter the order here>"
+let serverResponseToTableTwo = "Let me make sure I've got this right: \(customerOrderFour), \(customerOrderFive), \(customerOrderSix), is that correct?"
 
 let tableTwoResponse = "Perfect, merci bien."
 

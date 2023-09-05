@@ -1,6 +1,13 @@
 //: ## Game 5
+var detectiveName = "Sherlock Holmes"
+var suspectName = "Jack the Ripper"
+var city = "London"
+var pronoun = "he"
+var crime = "serial murder"
+var year = "1888"
 
-
+let game5FullSentence = "\(detectiveName) was on a mission in \(city) to track down the \(suspectName), the most notorious serial killer in the world.\n\(pronoun) knew that \(suspectName) would be a formidable opponent, but \(pronoun) was determined to succeed in his mission.\n\(pronoun) eventually gathered enough evidence to bring \(suspectName) to justice, and the \(crime) spree was finally stopped."
+print(game5FullSentence)
 
 //: [Previous](@previous)  |  page 7 of 7
 
