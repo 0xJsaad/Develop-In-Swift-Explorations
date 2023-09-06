@@ -5,6 +5,28 @@
 
  Inside one of the functions, make changes so that the text means something different, or make it funnier. You could change a name to your name or a friend’s name, change a word to something else that rhymes, or just play around.
  */
+var memeName = "Messi"
+var memeAdjective1 = "stay"
+var memeAdjective2 = "cry"
+var memeAdjective3 = "Internet"
+
+func memeSongPart1() {
+    print("🎶🎵🎶")
+    print("\(memeName), I'm here to \(memeAdjective1), I'll make you laugh, I'll make you \(memeAdjective2).\nI'm all over the \(memeAdjective3),\nI'm in your face, I'm in your head.")
+}
+
+func memeSongPart2() {
+    print("🎶🎵🎶")
+    print("I'm the latest trend, I'm the hottest meme,\nI'm everywhere you look,\nI'm inescapable.\nBut I'm also fun,\nI'm clever,\nI'm creative,\nSo don't hate me, \njust enjoy me.")
+}
+
+func memeSongPart3() {
+    print("🎶🎵🎶")
+    print("\(memeName), I'm a part of culture,\nI'm a way to express ourselves,\nTo connect with each other,\nAnd to have a good time.")
+}
+memeSongPart1()
+memeSongPart2()
+memeSongPart3()
 
 /*:
   _Copyright © 2021 Apple Inc._

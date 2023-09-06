@@ -21,6 +21,7 @@ list = listByAdding(item:"Eggs", toList: list)
 list = listByAdding(item:"Bread", toList: list)
 //: Compare this to the way you were building lists before, with compound assignment:
 list += "\n" + "Rice"
+list += "\n" + "Orange Juice"
 /*:
 You’ll probably notice that your code is easier to read when you use this convenience function. You no longer have to use `"\n"` to separate the items in the list. _Hiding complexity_ is one of the key benefits that functions bring to your code.
 

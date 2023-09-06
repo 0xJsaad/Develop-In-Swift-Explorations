@@ -12,7 +12,7 @@
  To address the first problem, the function could be renamed. A better name would be `printHello`. But the function-as-a-sentence would still read “Print hello name Maya,” which still doesn't work. “Print hello to Maya” would be better:
  */
 func printHello(to: String) {
-    print ("Hello " + to)
+    print ("Hello my name is " + to)
 }
 printHello(to: "Maya")
 /*:

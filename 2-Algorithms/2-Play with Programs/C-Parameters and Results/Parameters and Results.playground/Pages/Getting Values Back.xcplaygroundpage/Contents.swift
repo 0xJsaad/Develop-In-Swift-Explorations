@@ -29,6 +29,7 @@ let desiredVideoDuration = 40
 let holidayVideoCount = 100
 let videoMessage = spaceAvailableMessage(eachVideoDuration: desiredVideoDuration, numberOfVideos: holidayVideoCount)
 let namedVideoMessage = "Hey Micah! \(videoMessage)"
+print(namedVideoMessage)
 /*:
 Recall that the definition of an *expression* is something that produces a value. You encountered mathematical expressions like `2 + 6` as your first concept in Swift. And you learned that value literals are the simplest form of expression. A function call is another example of an expression, because it's evaluated and produces a value. Anywhere you can use a value, you can use a function.
 

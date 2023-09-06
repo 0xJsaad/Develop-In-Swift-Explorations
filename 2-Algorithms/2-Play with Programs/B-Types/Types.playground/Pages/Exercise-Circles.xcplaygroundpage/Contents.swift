@@ -7,7 +7,15 @@
  */
 let pi = 3.14159265359
 //:  - callout(Exercise): Write a program to calculate the circumference of a circle with a diameter of 2. Create a constant to hold the diameter. What type will the constant need to be?
+import Foundation
 
+func solveMain() {
+    let diamater = 2.0
+    let radius = diamater / 2.0
+    let circumference = 2 * Double.pi * radius
+    print("The Circumference of the circle is \(circumference)")
+}
+solveMain()
 /*:
   _Copyright © 2021 Apple Inc._
  
