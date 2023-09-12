@@ -14,17 +14,13 @@ func impossibleBeliefsCount(pigsFlying: Int, frogsBecomingPrinces: Int, multiple
 
 `impossibleThingsPhrase` creates a phrase using string interpolation:
  */
-// Int version 1st try
+// Int version
 func impossibleBeliefsCount() -> Int {
     let numberOfImpossibleThings = 10
     return numberOfImpossibleThings
 }
-// String original version
-func impossibleThingsPhrase() -> String {
-    let numberOfImpossibleThings = impossibleBeliefsCount()
-    let meal = "teatime"
-    return "Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)"
-}
+// Answer
+print(impossibleBeliefsCount())
 
 /*:
  - callout(Exercise): Update the `impossibleThingsPhrase` function so that, instead of using its two internal constants, it takes two arguments: `numberOfImpossibleThings` as an `Int` and `meal` as a `String`.
@@ -34,7 +30,13 @@ Now you have two functions that take parameters and return values.
  - callout(Exercise): Call `impossibleBeliefsCount` and store the result in a constant.\
 Call `impossibleThingsPhrase`, passing in the result of `impossibleBeliefsCount` as one of the arguments.
  */
-
+// 2nd Answer
+func impossibleThingsPhrase() -> String {
+    let numberOfImpossibleThings = impossibleBeliefsCount()
+    let meal = "lunch"
+    return "Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)"
+}
+print(impossibleThingsPhrase())
 /*:
 [Previous](@previous)  |  page 16 of 18  |  [Next: Exercise: Argument Label](@next)
  */

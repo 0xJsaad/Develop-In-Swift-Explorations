@@ -18,3 +18,14 @@ if secretWord != guess {
 
 [Previous](@previous)  |  page 13 of 15  |  [Next: Similar, Yet Different](@next)
  */
+// Combined them and added else statement:
+
+let wordSecret = "blue berry"
+let wordGuess = "orange"
+
+if wordSecret == wordGuess {
+    print("Your guess is right.")
+} else {
+    wordSecret != wordGuess 
+    print("Your guess is wrong.")
+}
