@@ -15,7 +15,7 @@
  - B's are between 80 and 89.
  - A's are 90 or greater.
  */
-let grade = 47
+let grade = 1
 
 if grade < 70 {
     print("You got an F 😭")
@@ -38,17 +38,18 @@ if grade >= 90 {
  
  "If a gig is more than 20 miles away, our manager needs to bring something for me to read. If it's less than five miles away, tell them I'll leave extra early to exercise and get some steps in. But if it's more than 100 miles away, I'm not really interested in playing—they should find a sub for me. Otherwise I'm super low maintenance."
  */
-let gigDistance = 6
+let gigDistance = 60
 
 if gigDistance > 20 {
     print("I need something to read.")
 } else if gigDistance < 5 {
-    print("I'll meet you there.")
+    print("I'll leave extra early to exercise and get some steps in")
 } else if gigDistance > 100 {
     print("Better find somebody else on bass.")
 } else {
     print("You know me—I'm easy! Let's hop in the van.")
 }
+
 /*:
  - callout(Exercise): Try testing the code with different distances. Then fix the code (and tell your bandmate they should take a Swift programming course).
 
