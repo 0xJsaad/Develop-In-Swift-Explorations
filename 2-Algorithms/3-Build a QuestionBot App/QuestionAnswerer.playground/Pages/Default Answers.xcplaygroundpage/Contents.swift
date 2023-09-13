@@ -12,28 +12,34 @@
 "abcd".count % 2
 //: This means that you can convert any string into `0` or `1`, then use the result to decide on an answer:
 func responseTo(question: String) -> String {
-    
+
     let lowerQuestion = question.lowercased()
-    
+
     if lowerQuestion == "where are the cookies?" {
         return "In the cookie jar!"
     } else if lowerQuestion.hasPrefix("where") {
         return "To the North!"
     } else {
-      
-        let defaultNumber = question.count % 2
-        
-        if defaultNumber == 0 {
-            return "That really depends"
-        } else {
-            return "Ask me again tomorrow"
-        }
 
+        let defaultNumber = question.count % 3
+
+        switch defaultNumber {
+        case 0:
+            return "That really depends"
+        case 1:
+            return "Ask me again tomorrow"
+        case 2:
+            return "I'm not sure about that"
+        default:
+            fatalError("Unexpected default number")
+        }
     }
 }
+
 responseTo(question: "Where are the cookies?")
 responseTo(question: "Can I have a cookie?")
 responseTo(question: "PLEASE can I have a cookie?")
+
 /*:
  - callout(Exercise): Amend the function above to choose from one of three default answers instead of two.
 
