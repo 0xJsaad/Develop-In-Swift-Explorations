@@ -24,8 +24,8 @@ let wordSecret = "blue berry"
 let wordGuess = "orange"
 
 if wordSecret == wordGuess {
-    print("Your guess is right!")
+    print("Your guess is right!!")
 } else {
     wordSecret != wordGuess 
-    print("Your guess is wrong!")
+    print("Your guess is wrong!!")
 }
