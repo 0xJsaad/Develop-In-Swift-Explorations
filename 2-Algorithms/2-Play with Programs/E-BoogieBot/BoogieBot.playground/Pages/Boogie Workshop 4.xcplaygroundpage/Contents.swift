@@ -18,7 +18,32 @@
  */
 startBot()
 startRecording()
-
+setBotTitle("The last dance")
+setBotSubtitle("0xjsaad\nMDC x Swift program")
+func Dance4() {
+    fabulize()
+    leftArmUp()
+    shakeItRight()
+    leftArmDown()
+    shakeItCenter()
+    defabulize()
+    fabulize()
+    jumpUp()
+    jumpDown()
+}
+func BackwardsDance4() {
+    fabulize()
+    rightArmUp()
+    shakeItLeft()
+    defabulize()
+    rightArmDown()
+    fabulize()
+    shakeItCenter()
+    jumpUp()
+    jumpDown()
+}
+Dance4()
+BackwardsDance4()
 /*:
   _Copyright © 2021 Apple Inc._
  

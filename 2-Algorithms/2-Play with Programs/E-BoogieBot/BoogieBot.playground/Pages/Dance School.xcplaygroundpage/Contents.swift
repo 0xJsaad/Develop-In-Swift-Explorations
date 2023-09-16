@@ -33,8 +33,12 @@ leftArmUp()
 rightArmUp()
 
 leftLegUp()
+leftLegDown()
 rightLegUp()
 leftLegDown()
+defabulize()
+
+fabulize()
 rightLegDown()
 shakeItLeft()
 shakeItRight()

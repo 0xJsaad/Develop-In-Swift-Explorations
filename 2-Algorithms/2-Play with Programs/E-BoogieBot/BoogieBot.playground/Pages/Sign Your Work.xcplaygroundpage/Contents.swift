@@ -12,17 +12,35 @@
  `setBotSubtitle("By The Boogiemaster")`
  */
 startBot()
-setBotTitle("My Awesome Dance")
+setBotTitle("My Awesome MDC Dance")
 setBotSubtitle("By The Boogiemaster")
 
 func doTheDisco() {
     fabulize()
     leftArmUp()
     leftArmDown()
+    shakeItRight()
+    shakeItRight()
+    leftLegUp()
+    leftLegDown()
+    shakeItCenter()
+}
+func doTheDiscoMirror() {
+    fabulize()
+    rightArmUp()
+    rightArmDown()
+    shakeItLeft()
+    shakeItRight()
+    rightLegUp()
+    rightLegDown()
+    shakeItCenter()
 }
 doTheDisco()
+doTheDiscoMirror()
 doTheDisco()
+doTheDiscoMirror()
 doTheDisco()
+doTheDiscoMirror()
 doTheDisco()
 /*:
  - callout(Exercise): Set your own title and subtitle for your BoogieBot dance.

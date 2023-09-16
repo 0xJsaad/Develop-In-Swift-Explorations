@@ -18,6 +18,29 @@
  */
 startBot()
 startRecording()
+setBotTitle("Happy Birthday Enzo")
+setBotSubtitle("Tu Padrino")
+func BirthdayDance() {
+    fabulize()
+    leftArmUp()
+    shakeItRight()
+    leftArmDown()
+    shakeItCenter()
+    jumpUp()
+    jumpDown()
+}
+func BackwardsBirthdayDance() {
+    fabulize()
+    rightArmUp()
+    shakeItLeft()
+    rightArmDown()
+    shakeItCenter()
+    jumpUp()
+    jumpDown()
+}
+
+BirthdayDance()
+BackwardsBirthdayDance()
 
 /*:
 Continue with your creativity.

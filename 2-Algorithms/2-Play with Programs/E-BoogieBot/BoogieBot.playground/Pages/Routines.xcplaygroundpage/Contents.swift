@@ -11,11 +11,19 @@ func doTheDisco() {
     leftArmDown()
     shakeItCenter()
 }
+func doTheDiscoMirrorImage() {
+    rightArmUp()
+    shakeItLeft()
+    rightArmDown()
+    shakeItCenter()
+}
 //:  Once you've decided what moves go in the routine, start the robot dancing by calling the function you just made:
 startBot()
 fabulize()
 doTheDisco()
+doTheDiscoMirrorImage()
 doTheDisco()
+doTheDiscoMirrorImage()
 doTheDisco()
 /*:
  Functions are the way programmers group blocks of work together. Recall from the Functions playground that functions help you in these ways:

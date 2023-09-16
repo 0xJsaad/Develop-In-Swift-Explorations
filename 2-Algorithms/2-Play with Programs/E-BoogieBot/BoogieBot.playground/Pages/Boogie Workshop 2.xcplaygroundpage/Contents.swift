@@ -18,7 +18,25 @@
  */
 startBot()
 startRecording()
+setBotTitle("Es la hora que Elizabeth\nse vuelva loca")
+setBotSubtitle("By 0xJsaad")
+func Dance2Workshop() {
+    fabulize()
+    rightArmUp()
+    rightArmDown()
+    shakeItRight()
+    rightLegUp()
+    shakeItCenter()
+    rightArmUp()
+    rightArmDown()
+    shakeItRight()
+    rightLegUp()
+    shakeItCenter()
+    
+}
 
+Dance2Workshop()
+Dance2Workshop()
 /*:
 Continue with your creativity.
 

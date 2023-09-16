@@ -18,7 +18,20 @@
  */
 startBot()
 startRecording()
+// Dance 1
 
+setBotTitle("Salsero")
+setBotSubtitle("By The salsa master 0xJsaad")
+func Dance1Workshop() {
+    fabulize()
+    rightArmUp()
+    rightArmDown()
+    shakeItRight()
+    rightLegUp()
+    shakeItCenter()
+}
+
+Dance1Workshop()
 /*:
 Continue with your creativity.
 
