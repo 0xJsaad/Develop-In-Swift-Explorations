@@ -25,7 +25,7 @@ makePieChart()
 
 addWedge(withProportion: 0.3, color: .purple)
 addWedge(withProportion: 0.15, color: .yellow)
-addWedge(withProportion: 0.2, color: .green)
+addWedge(withProportion: 0.2, color: .blue)
 addWedge(withProportion: 0.35, color: .red)
 
 addKeyItem(withLabel: "Grapes", color: .purple)
