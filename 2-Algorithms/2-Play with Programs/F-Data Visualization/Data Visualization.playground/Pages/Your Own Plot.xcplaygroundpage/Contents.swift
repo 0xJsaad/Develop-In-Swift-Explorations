@@ -7,6 +7,22 @@
  */
 makePlot()
 
+setXAxis(minimum: -10, maximum: 10)
+setYAxis(minimum: -10, maximum: 10)
+
+addPointAt(x: 1, y: 2, color: .red)
+addPointAt(x: 3, y: 1, color: .green)
+addPointAt(x: 3, y: 4, color: .green)
+addPointAt(x: 2, y: 6, color: .green)
+addPointAt(x: 4, y: 5, color: .green)
+addPointAt(x: 7, y: 5, color: .green)
+addPointAt(x: -8, y: 2, color: .blue)
+addPointAt(x: 10, y: -6, color: .red)
+addPointAt(x: -8, y: -9, color: .red)
+
+addKeyItem(withLabel: "New School Wall Colors", color: .clear)
+addKeyItem(withLabel: "Votes in favor of painting the walls red", color: .red)
+addKeyItem(withLabel: "Voters in favor of painting the wall green", color: .green)
 
 
 /*:

@@ -7,6 +7,29 @@
  */
 makeBarChart()
 
+setYAxis(minimum: -50, maximum: 100)
+
+addBar(withLength: -40, color: .red)
+addBar(withLength: -50, color: .red)
+addBar(withLength: 83, color: .green)
+addBar(withLength: -35, color: .red)
+addBar(withLength: 13, color: .green)
+addBar(withLength: -15, color: .red)
+addBar(withLength: 23, color: .green)
+addBar(withLength: 80, color: .green)
+
+addBarLabel("Jan")
+addBarLabel("Feb")
+addBarLabel("Apr")
+addBarLabel("Mar")
+addBarLabel("May")
+addBarLabel("Jun")
+addBarLabel("Jul")
+addBarLabel("Aug")
+
+addKeyItem(withLabel: "401k Stocks investments", color: .clear)
+addKeyItem(withLabel: "Positive Gains balance of themonth", color: .green)
+addKeyItem(withLabel: "Negative Gains balance of the month", color: .red)
 
 
 /*:

@@ -14,17 +14,30 @@
  */
 makeBarChart()
 
-setYAxis(minimum: 0, maximum: 100)
 
-addBar(withLength: 60, color: .yellow)
+setYAxis(minimum: -100, maximum: 100)
+
+addBar(withLength: -70, color: .red)
+addBar(withLength: -60, color: .red)
 addBar(withLength: 83, color: .green)
-addBar(withLength: 45, color: .red)
-addBar(withLength: 17, color: .purple)
+addBar(withLength: -95, color: .red)
+addBar(withLength: 13, color: .green)
+addBar(withLength: -45, color: .red)
+addBar(withLength: 23, color: .green)
+addBar(withLength: 80, color: .green)
 
-addBarLabel("Bananas")
-addBarLabel("Limes")
-addBarLabel("Strawberries")
-addBarLabel("Grapes")
+addBarLabel("Jan")
+addBarLabel("Feb")
+addBarLabel("Apr")
+addBarLabel("Mar")
+addBarLabel("May")
+addBarLabel("Jun")
+addBarLabel("Jul")
+addBarLabel("Aug")
+
+addKeyItem(withLabel: "Google Ads Campaings", color: .clear)
+addKeyItem(withLabel: "Positive ROI closing month", color: .green)
+addKeyItem(withLabel: "Negative ROI closing month", color: .red)
 
 /*:
 [Previous](@previous)  |  page 6 of 11  |  [Next: Your Own Data](@next)

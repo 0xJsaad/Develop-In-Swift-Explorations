@@ -7,7 +7,12 @@
  */
 makePieChart()
 
+addWedge(withProportion: 0.3, color: .blue)
+addWedge(withProportion: 0.7, color: .red)
 
+addKeyItem(withLabel: "Democrats", color: .blue)
+addKeyItem(withLabel: "Republicans", color: .red)
 
+addKeyItem(withLabel: "2024 Elections", color: .white)
 //: [Previous](@previous)  |  page 4 of 11  |  [Next: Bar Charts](@next)
     

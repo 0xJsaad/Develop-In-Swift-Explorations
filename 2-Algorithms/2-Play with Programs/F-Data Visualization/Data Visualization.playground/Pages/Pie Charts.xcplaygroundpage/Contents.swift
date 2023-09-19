@@ -30,7 +30,7 @@ makePieChart()
 addWedge(withProportion: 0.15, color: .red)
 addWedge(withProportion: 0.35, color: .yellow)
 addWedge(withProportion: 0.4, color: .blue)
-addWedge(withProportion: 0.1, color: .gray)
+addWedge(withProportion: 0.1, color: .darkGray)
 
 /*:
 [Previous](@previous)  |  page 2 of 11  |  [Next: Chart Key](@next)

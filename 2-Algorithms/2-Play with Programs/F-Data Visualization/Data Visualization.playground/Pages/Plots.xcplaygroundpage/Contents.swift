@@ -32,15 +32,15 @@
  */
 makePlot()
 
-addPointAt(x: 1, y: 2, color: .black)
-addPointAt(x: 3, y: 1, color: .black)
-addPointAt(x: 3, y: 4, color: .black)
-addPointAt(x: 2, y: 6, color: .black)
-addPointAt(x: 4, y: 5, color: .black)
-addPointAt(x: 7, y: 5, color: .black)
-addPointAt(x: 8, y: 2, color: .black)
-addPointAt(x: 10, y: 6, color: .black)
-addPointAt(x: 8, y: 9, color: .black)
+addPointAt(x: 1, y: 2, color: .red)
+addPointAt(x: 3, y: 1, color: .green)
+addPointAt(x: 3, y: 4, color: .blue)
+addPointAt(x: 2, y: 6, color: .orange)
+addPointAt(x: 4, y: 5, color: .yellow)
+addPointAt(x: 7, y: 5, color: .cyan)
+addPointAt(x: 8, y: 2, color: .brown)
+addPointAt(x: 10, y: 6, color: .magenta)
+addPointAt(x: 8, y: 9, color: .cyan)
 
 /*:
 [Previous](@previous)  |  page 8 of 11  |  [Next: Plot Customization](@next)

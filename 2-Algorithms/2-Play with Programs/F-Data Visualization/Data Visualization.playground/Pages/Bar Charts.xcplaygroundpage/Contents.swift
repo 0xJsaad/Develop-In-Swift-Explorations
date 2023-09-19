@@ -34,8 +34,8 @@ makeBarChart()
 
 addBar(withLength: 1, color: .yellow)
 addBar(withLength: 5, color: .green)
-addBar(withLength: 9, color: .red)
-addBar(withLength: 3, color: .purple)
+addBar(withLength: 3, color: .red)
+addBar(withLength: 12, color: .purple)
 
 /*:
 [Previous](@previous)  |  page 5 of 11  |  [Next: Bar Chart Customization](@next)
