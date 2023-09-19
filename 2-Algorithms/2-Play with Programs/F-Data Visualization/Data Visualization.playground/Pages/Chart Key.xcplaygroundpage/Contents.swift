@@ -30,7 +30,7 @@ addWedge(withProportion: 0.35, color: .red)
 
 addKeyItem(withLabel: "Grapes", color: .purple)
 addKeyItem(withLabel: "Bananas", color: .yellow)
-addKeyItem(withLabel: "Limes", color: .green)
+addKeyItem(withLabel: "Apple", color: .green)
 addKeyItem(withLabel: "Strawberries", color: .red)
 
 /*:
