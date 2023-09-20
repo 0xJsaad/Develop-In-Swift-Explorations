@@ -18,11 +18,11 @@ let devices = ["iPhone", "iPad", "iPod", "iMac"]
  Each item in an array has an index, starting with the first item at zero. You can get the value that's stored at a particular index by putting the index in square brackets after the array name:
  */
 // This gets the object at index 0
-devices[0]
+devices[1]
 
 //:  - Experiment: Declare a constant `favoriteDevice` and set its value to “iPod” by using an index into the `devices` array.
 // Declare favoriteDevice below
-
+let favoriteDvice = devices[3]
 /*:
  Getting a value using the index has to be done carefully. If you ask for an item that is not in the list, you can cause a serious program error. It would be like telling someone to walk 100 feet down a dock that's only 50 feet long. If the person followed your instructions as strictly as a program executes your code, they'd end up walking right into the water.
 

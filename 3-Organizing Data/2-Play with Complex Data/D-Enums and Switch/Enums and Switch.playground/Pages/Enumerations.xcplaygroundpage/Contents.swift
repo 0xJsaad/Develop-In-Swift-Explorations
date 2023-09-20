@@ -7,6 +7,7 @@ enum LunchChoice {
     case pasta
     case burger
     case soup
+    case fish
 }
 /*:
 The declaration above creates a new type, `LunchChoice`. Instances of `LunchChoice` can only be one of the three defined cases.
@@ -25,7 +26,7 @@ let choice = LunchChoice.burger
 One benefit of an enum is it limits the choices to one of its cases. You can’t order off-menu.\
 Uncomment the line below to see the error, then comment it out again when you’re done:
  */
-//let special = LunchChoice.fish
+let special = LunchChoice.fish
 //:  - Experiment: You and your friends are going out for lunch. Create constants for each person and assign them different cases in the enum. Notice how autocompletion shows you the possible options.
 
 /*:

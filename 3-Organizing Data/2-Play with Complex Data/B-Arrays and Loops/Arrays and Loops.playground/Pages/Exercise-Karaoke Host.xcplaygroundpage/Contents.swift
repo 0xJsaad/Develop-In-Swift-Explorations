@@ -8,6 +8,7 @@
  - callout(Exercise): 
  Create an empty array to hold song titles as strings, and use the `append` method to add three or four songs one at a time.
  */
+var emptyArrayList = [String]()
 
 /*:
  - callout(Exercise): 

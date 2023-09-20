@@ -19,7 +19,7 @@ enum LunchChoice {
         }
     }
 }
-let lunch = LunchChoice.pasta
+let lunch = LunchChoice.burger
 lunch.emoji
 /*:
  The `self` keyword is used in methods and computed properties and refers to the instance that is being asked for the property value.

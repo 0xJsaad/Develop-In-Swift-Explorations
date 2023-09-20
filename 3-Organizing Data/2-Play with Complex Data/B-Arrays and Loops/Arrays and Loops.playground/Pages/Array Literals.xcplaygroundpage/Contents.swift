@@ -15,7 +15,7 @@ let devices = ["iPhone", "iPad", "iPod", "iMac"]
  - Experiment: Create a new constant named `highScores` below and assign it an array containing a list of ten numbers.
  */
 // Define highScores array below
-
+devices[0]
 /*:
  Move on to the next page to find out about what those numbers are for.
 

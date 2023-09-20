@@ -20,7 +20,8 @@ let newFirstFlavor = flavors[0]
 
 //:  - Experiment: Change the value of "Pistachio" to a flavor of ice cream that’s not already used in the array, like “Mint Chocolate Chip.” Check the results sidebar to make sure you’ve made the change.
 // Change "Pistachio" to another flavor.
-
+flavors[3] = "Mint"
+flavors
 /*:
  If you try to use an index that is not contained in the array, you will get an error. You can only replace values in a mutable array using subscripts, you can’t add or remove things.
 

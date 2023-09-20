@@ -10,10 +10,16 @@ var list = [String]()
 list.append("Banana")
 //: You can add an item at a specific index using the `insert` instance method. As with everywhere you use an index, it has to be within the array or the program will crash:
 list.insert("Kumquat", at: 0)
-//: You can append a whole array of items using the compound assignment operator `+=`:
-list += ["Strawberry", "Plum", "Watermelon"]
-//:  - Experiment: Practice adding items to the list using each of the three methods. Which do you prefer? When might you want to use each one?
+list.insert("Apple", at: 2)
 
+
+//: You can append a whole array of items using the compound assignment operator `+=`:
+list += ["Strawberry", "Plum", "Watermelon", "Green Apple", "Kiwi"]
+list.insert("Grapes", at: 8)
+//:  - Experiment: Practice adding items to the list using each of the three methods. Which do you prefer? When might you want to use each one?
+list += ["Mango", "Pear"]
+list.insert("Green Pear", at: 10)
+list.append("Green Grapes")
 /*:
 All of these list methods are abstractions for a series of instructions for doing useful tasks, following Swift's syntax rules. Now, move on to find out how to remove items from an array.\
 [Previous](@previous)  |  page 9 of 18  |  [Next: Removing Items](@next)

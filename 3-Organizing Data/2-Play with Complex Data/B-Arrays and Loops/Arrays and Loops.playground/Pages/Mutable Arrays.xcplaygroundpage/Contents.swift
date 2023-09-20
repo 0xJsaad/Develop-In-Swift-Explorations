@@ -11,7 +11,7 @@ But you can’t change the type of items the array holds. Just like all variable
 
 This line would give an error because the items are `Int` values:
  */
-//transitOptions = [44, 71, 16]
+transitOptions = ["44", "71", "16"]
 /*:
 Move on to change the contents of a mutable array without replacing the whole list.\
 [Previous](@previous)  |  page 8 of 18  |  [Next: Adding Items](@next)
