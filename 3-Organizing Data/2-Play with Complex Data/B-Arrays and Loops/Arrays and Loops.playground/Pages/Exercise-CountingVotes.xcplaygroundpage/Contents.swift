@@ -20,14 +20,61 @@ This is also a lot of votes for Swift to use type inference to determine what ki
  
 //:  - callout(Exercise): Create two variables, one to count `yes` votes and one to count `no` votes. Each should start off with a value of zero.
 //:  - callout(Exercise): Create a `for…in` loop that iterates over one of the vote arrays and checks the value of each vote. If the vote is `true`, the loop should add one vote to the `yes` variable. If it's `false`, it should add one vote to the `no` variable.
+var yesVotes = 0
+var noVotes = 0
 
+for vote in shouldMascotChangeVotes {
+    if vote == true {
+        yesVotes += 1
+    } else {
+        noVotes += 1
+    }
+}
 //:  - callout(Exercise): After the loop has finished, write an `if` statement that compares the two values and prints a different message based on whether the vote passed or failed.
+if yesVotes > noVotes {
+    print("The mascot change has passed! ")
+} else {
+    print("The mascot change has failed! ")
+}
+
 
 /*:
  - callout(Exercise): Test your code by calling the `for…in` loop on each of the vote arrays.\
 Which measures won by popular vote?
  */
+ yesVotes = 0
+ noVotes = 0
 
+for vote in shouldInstallCoffeeVendingMachineVotes {
+    if vote == true {
+        yesVotes += 1
+    } else {
+        noVotes += 1
+    }
+}
+
+if yesVotes > noVotes {
+    print("Install coffee vending machine votes has passed!")
+} else {
+    print("The istall coffee vending machine votes has failed")
+}
+
+yesVotes = 0
+noVotes = 0
+
+for vote in shouldHaveMorePollOptionsVotes {
+   if vote == true {
+       yesVotes += 1
+   } else {
+       noVotes += 1
+   }
+}
+
+if yesVotes > noVotes {
+   print("have more poll options votes has passed!")
+} else {
+   print("have more poll options votes has failed")
+}
 /*:
 ### Extension:
  Your `for…in` loop would be even more powerful if you could easily reuse it. The easiest way to reuse code is to put it in a function.
@@ -41,8 +88,23 @@ Which measures won by popular vote?
  A message like this should be printed to the console:\
  `Should we change the mascot? 54 yes, 23 no`
  */
-// Add your vote-processing function here:
+func printResults(forIssue issue: String, withVotes votes: [Bool]) {
+    print(issue)
+    
+    var yesVotes = 0
+    var noVotes = 0
+    
+    for vote in votes {
+        if vote == true {
+            yesVotes += 1
+        } else {
+            noVotes += 1
+        }
+    }
+    print("\(yesVotes) yes,\(noVotes) no.")
+}
 
+printResults(forIssue: "should we change the mascot?", withVotes: shouldMascotChangeVotes)
 /*:
 [Previous](@previous)  |  page 15 of 18  |  [Next: Exercise: Goals](@next)
  */
