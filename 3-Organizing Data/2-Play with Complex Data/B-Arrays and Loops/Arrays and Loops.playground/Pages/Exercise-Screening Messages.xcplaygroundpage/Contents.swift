@@ -6,7 +6,7 @@
  Try to print out the `aliceMessages` array to see the whole list, but beware: It's large enough that it may cause your playground to run slowly.
  */
 aliceMessages
-
+//print(aliceMessages)
 
 /*:
  The Caterpillar has asked you to go through the messages and to relay any that contain the Caterpillar's name, along with the message number. Instead of reading all the text yourself, you decide to write more code to help.
@@ -28,6 +28,12 @@ for i in 0 ... colors.count - 1 {
  This process is called a *linear search*. Linear search is a common algorithm for processing arrays by examining its contents in order and evaluating each item to determine whether it meets certain criteria.
  */
 // Write the `for…in` loop here:
+for i in 0 ... aliceMessages.count - 1 {
+    let message = aliceMessages[i]
+    if message.contains("Caterpillar ") {
+        print("\(i): message")
+    }
+}		
 
 /*:
 [Previous](@previous)  |  page 17 of 18  |  [Next: Exercise: Partial Iteration](@next)
