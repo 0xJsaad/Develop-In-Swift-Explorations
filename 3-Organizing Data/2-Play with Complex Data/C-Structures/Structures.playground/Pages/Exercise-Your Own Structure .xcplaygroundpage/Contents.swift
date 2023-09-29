@@ -6,6 +6,15 @@
  Think of another real-world object and its properties. Make up some actions or behaviors that the object might be able to perform. Write them all in plain English first in a comment:
  */
  // Add your English-language description of the type here. Make sure to add // before each line of your comment description.
+// Add your own struct here:
+// Computer struct
+// screenSize property: Double
+// totalRamInMB: Int
+// isOn: Bool
+// manfucaturer: String
+// manufactureDate: Date
+// turnOn function
+// open(program: String) function
 
 /*:
  - callout(Exercise): 
@@ -14,13 +23,39 @@
  
  > If you make a method that tries to change a property of your struct, you'll see the error "`Cannot assign to property: 'self' is immutable`." Structs have special rules about methods that try to change the values of their properties. To get rid of the error, use the keyword `mutating` in your method declaration, like so: `mutating func myMethodThatChangesAProperty()`
  */
-// Add your own struct here:
+// add your own struct here:
 
+import Foundation
+
+struct Computer {
+    let screensize: Double
+    let totalRamInMB: Int
+    var isOn: Bool
+    let manufacturer: String
+    let manfucatureDate: Date
+    
+    
+    mutating func turnOn() {
+        print("Computer is powering on...")
+        isOn = true
+    }
+    
+    func open(program: String) {
+        if isOn {
+            print("Opening the \(program) program")
+        } else {
+            print("The computer needs to be turned on before you can open \(program)")
+        }
+    }
+}
 /*:
  - callout(Exercise): 
  Use the struct you created to make a new instance of your type.
  */
+var mackbook = Computer(screensize: 15.4, totalRamInMB: 16384, isOn: false, manufacturer: "Apple", manfucatureDate: Date(timeIntervalSince1970: 1_387_00))
 
+mackbook.turnOn()
+mackbook.open(program: "xCode")
 //:  - Note: Here's an example of a placeholder type used for making a TrainingShoe:
 // Placeholder type
 struct Shoelaces {
