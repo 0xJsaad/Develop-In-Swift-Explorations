@@ -89,7 +89,7 @@ fileprivate func addBarrier(at position: Point, width: Double, height: Double, a
 // setup ball func
 
 
-fileprivate func extractedFunc2() {
+fileprivate func setupTarget(at position: Point) {
     // Add a funnel to the scene.
     
     funnel.position = Point(x: 200, y: scene.height - 25)
@@ -124,7 +124,7 @@ func setupTarget() {
 func setup() {
     extractedFunc()
     addBarrier(at: Point(x: 200, y: 150), width: 80, height: 25, angle: 0.1)
-    extractedFunc2()
+    setupTarget()
     extractedFunc3()
     target.name = "target"
     resetGame()
